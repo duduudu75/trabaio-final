@@ -1,0 +1,63 @@
+body{
+    background-image:url(nd.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: 40px;
+    width: 400px;
+    float: right;
+    margin-top: -600px;
+    border-radius: 10px;
+    transition: all.3s;
+}
+img:hover{
+    transform: scale(0.98);
+    box-shadow: 0px 0px 30px 5px rgba(8, 0, 255, 0.826);
+}
+
+p{
+    font-size: 170%;
+    color: aliceblue;
+}
+h1{
+    color: rgb(7, 118, 255);
+    font-size: 250%;
+}
+
+.estrelas {
+    color: gold;
+    font-size: 25px;
+    position: relative;
+    top: -10px;
+    letter-spacing: 3px;
+}
+
+.cinza {
+    color: gray;
+    margin-left: -8px;
+}
+
+.Voltar{
+  padding: 7px 15px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #0a02f3;
+  background-color: #edeff1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  text-decoration: none;
+    
+}
+
+.Voltar:hover{
+  background-color: #0a02f3;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px #0106f6f8;
+}

@@ -1,0 +1,67 @@
+body{
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    a{
+        text-decoration: none;
+        color: hsl(0, 0%, 0%);
+    }
+    .Voltar{
+        padding: 7px 15px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #e71111;
+        background-color: #edeff1;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease; 
+        text-decoration: none;
+    }
+
+    .Voltar:hover{
+        background-color: #cb1013;
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(143, 13, 13, 0.974);
+    }
+}
+
+img {
+     width: 300px;    /* Largura fixa */
+     height: 450px;   /* Altura fixa */
+     object-fit: cover; /* Mantém a proporção e corta o excesso sem deformar */
+     margin: 15px;
+        }
+
+
+.livro-1,.livro-2,.livro-3,.livro-4{
+    border: 3px solid transparent;
+    transition: 0.4s ease-in-out;
+}
+
+.livro-1:hover{
+    border-color: #d00a1a;
+    box-shadow:0 0 15px #d00a1a;
+    transform: scale(1.05);
+}
+
+.livro-2:hover{
+    border-color: blue;
+    box-shadow: 0 0 15px blue;
+    transform: scale(1.05);
+}
+
+.livro-4:hover{
+    border-color: rgb(191, 0, 255);
+    box-shadow: 0 0 15px rgb(187, 0, 255);
+    transform: scale(1.05);
+}
+
+.livro-3:hover{
+    border-color: rgb(77, 104, 165);
+    box-shadow: 0 0 15px rgb(77, 104, 165);
+    transform: scale(1.05);
+}
+
